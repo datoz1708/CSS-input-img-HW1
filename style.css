@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+html, body {
+    background-color:#E0E0E0;
+    font-family: "inter";
+}
+
+input, textarea {
+    padding: 0 10px;
+}
+.registration {
+    background-color: #F5F5F5;
+    width: 378px;
+    height: 489px;
+    border: 1px solid #F4B4B47A;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    margin-top: 20px;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+#email-box {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #F4B4B47A;
+    border-radius: 10px;
+    outline: none;
+    background-image: url(img/person-bounding-box\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 310px;
+}
+
+#password-box {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #F4B4B47A;
+    border-radius: 10px;
+    outline: none;
+    background-image: url(img/eye-slash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 310px;
+}
+
+.password {
+    margin-top: 15px;
+}
+
+::placeholder {
+    color: #9E9E9E;
+    font-weight: 500;
+}
+
+label {
+    color: #616161;
+}
+
+button {
+    width: 335px;
+    height: 45px;
+    background-color: #6756CB;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    margin-top: 35px;
+}
